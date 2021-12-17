@@ -1,0 +1,45 @@
+--- Job gamsJupyter2.gms Start 12/17/21 15:16:35 36.2.0 r433180e LEX-LEG x86 64bit/Linux
+--- Applying:
+    /opt/gams/gams36.2_linux_x64_64_sfx/gmsprmun.txt
+--- GAMS Parameters defined
+    LP CPLEX
+    MIP CPLEX
+    RMIP CPLEX
+    NLP CONOPT
+    MCP PATH
+    MPEC NLPEC
+    RMPEC NLPEC
+    CNS CONOPT
+    DNLP CONOPT
+    RMINLP CONOPT
+    MINLP DICOPT
+    QCP CONOPT
+    MIQCP SBB
+    RMIQCP CONOPT
+    EMP JAMS
+    Restart /home/carter/repos/CS524-project/_gams_py_gcp0.g00
+    Input /home/carter/repos/CS524-project/gamsJupyter2.gms
+    Output /home/carter/repos/CS524-project/gamsJupyter2.lst
+    Save /home/carter/repos/CS524-project/_gams_py_gcp1.g0?
+    ScrDir /home/carter/repos/CS524-project/225a/
+    SysDir /opt/gams/gams36.2_linux_x64_64_sfx/
+    CurDir /home/carter/repos/CS524-project/
+    LogOption 3
+    LogFile /home/carter/repos/CS524-project/gamsJupyter2.log
+    Trace /home/carter/repos/CS524-project/gamsJupyter2.trc
+    TraceOpt 3
+    GDX /home/carter/repos/CS524-project/_gams_py_gdb1.gdx
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) G210907|0002AS-GEN
+          UW-Madison, CS Dept., Fall 2021, Prof. Ferris              DCE850
+          /opt/gams/gams36.2_linux_x64_64_sfx/gamslice.txt
+          License Admin: Michael C. Ferris, ferris@cs.wisc.edu             
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 36.2.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting continued compilation
+--- Workfile was generated under GAMS version LEX362-362
+--- gamsJupyter2.gms(13) 2 Mb
+--- Starting execution: elapsed 0:00:00.020
+--- GDX File /home/carter/repos/CS524-project/_gams_py_gdb1.gdx
+*** Status: Normal completion
+--- Job gamsJupyter2.gms Stop 12/17/21 15:16:35 elapsed 0:00:00.021

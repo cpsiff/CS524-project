@@ -1,0 +1,36 @@
+   4  sets
+   5      dim "3D coordinate / vector dimensions",
+   6      obs "set of observations",
+   7      mat "entry names for a 3x3 matrix";
+   8   
+   9  parameters
+  10      m(obs) "(m)easurement observed per observation",
+  11      big_A(obs, mat) "affine transform matrix for robot motion for the given observation",
+  12      t(obs, dim) "translation component of robot motion for the given observation"
+  13      p(dim) "position of sensor on robot",
+  14      u(dim) "heading vector denoting the orientation of the sensor on the robot";
+
+
+COMPILATION TIME     =        0.000 SECONDS      2 MB  36.2.0 r433180e LEX-LEG
+GAMS 36.2.0  r433180e Released Sep  3, 2021 LEX-LEG x86 64bit/Linux - 12/17/21 15:16:35 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+EXECUTION TIME       =        0.000 SECONDS      2 MB  36.2.0 r433180e LEX-LEG
+
+
+USER: Introduction to Optimization (CS/ISyE/ECE 524) G210907|0002AS-GEN
+      UW-Madison, CS Dept., Fall 2021, Prof. Ferris              DCE850
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Restart    /home/carter/repos/CS524-project/_gams_py_gcp0.g00
+Input      /home/carter/repos/CS524-project/gamsJupyter2.gms
+Output     /home/carter/repos/CS524-project/gamsJupyter2.lst
+Save       /home/carter/repos/CS524-project/_gams_py_gcp1.g0?
+
+**** WARNING - COMPILER OPTIONS ARE NON DEFAULT     ONEMPTY
+     EOLCOM # 

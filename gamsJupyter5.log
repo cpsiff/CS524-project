@@ -1,0 +1,82 @@
+--- Job gamsJupyter5.gms Start 12/17/21 15:16:37 36.2.0 r433180e LEX-LEG x86 64bit/Linux
+--- Applying:
+    /opt/gams/gams36.2_linux_x64_64_sfx/gmsprmun.txt
+--- GAMS Parameters defined
+    LP CPLEX
+    MIP CPLEX
+    RMIP CPLEX
+    NLP CONOPT
+    MCP PATH
+    MPEC NLPEC
+    RMPEC NLPEC
+    CNS CONOPT
+    DNLP CONOPT
+    RMINLP CONOPT
+    MINLP DICOPT
+    QCP CONOPT
+    MIQCP SBB
+    RMIQCP CONOPT
+    EMP JAMS
+    Restart /home/carter/repos/CS524-project/_gams_py_gcp0.g00
+    Input /home/carter/repos/CS524-project/gamsJupyter5.gms
+    Output /home/carter/repos/CS524-project/gamsJupyter5.lst
+    Save /home/carter/repos/CS524-project/_gams_py_gcp4.g0?
+    ScrDir /home/carter/repos/CS524-project/225a/
+    SysDir /opt/gams/gams36.2_linux_x64_64_sfx/
+    CurDir /home/carter/repos/CS524-project/
+    LogOption 3
+    LogFile /home/carter/repos/CS524-project/gamsJupyter5.log
+    Trace /home/carter/repos/CS524-project/gamsJupyter5.trc
+    TraceOpt 3
+    GDX /home/carter/repos/CS524-project/_gams_py_gdb4.gdx
+Licensee: Introduction to Optimization (CS/ISyE/ECE 524) G210907|0002AS-GEN
+          UW-Madison, CS Dept., Fall 2021, Prof. Ferris              DCE850
+          /opt/gams/gams36.2_linux_x64_64_sfx/gamslice.txt
+          License Admin: Michael C. Ferris, ferris@cs.wisc.edu             
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 36.2.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting continued compilation
+--- Workfile was generated under GAMS version LEX362-362
+--- gamsJupyter5.gms(37) 3 Mb
+--- Starting execution: elapsed 0:00:00.022
+--- gamsJupyter5.gms(68) 4 Mb
+--- Generating QCP model lstsq
+--- gamsJupyter5.gms(71) 6 Mb
+---   52 rows  55 columns  304 non-zeroes
+---   163 nl-code  53 nl-non-zeroes
+--- gamsJupyter5.gms(71) 4 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.023
+
+CONOPT 3         36.2.0 r433180e Released Sep 03, 2021 LEG x86 64bit/Linux    
+
+ 
+ 
+    C O N O P T 3   version 3.17K
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        1.8441563871E+04 (Input point)
+ 
+                   Pre-triangular equations:   0
+                   Post-triangular equations:  51
+ 
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    7135767.68858
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+      6   4        1.2222959350E+04 1.6E+06     3 1.0E+00    2 F  T
+     11   4       -2.7990052265E-07 1.1E+01     3 1.0E+00    3 F  T
+     13   4        4.1192737197E-18 9.1E-10     3
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model lstsq
+--- GDX File /home/carter/repos/CS524-project/_gams_py_gdb4.gdx
+*** Status: Normal completion
+--- Job gamsJupyter5.gms Stop 12/17/21 15:16:37 elapsed 0:00:00.031
